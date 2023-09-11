@@ -38,11 +38,7 @@ public class LibraryDemo {
     		author.lastName = auth[1];
     		String isbn = tokens[2];
     		String publishDate = tokens[3];
-    		Book b = new Book();
-    		b.setTitle(title);
-    		b.setAuthor(author);
-    		b.setISBN(isbn);
-    		b.setPublishDate(publishDate);
+    		Book b = new Book(title, author, isbn, publishDate);
     		lib.addBook(b);
     	}    	
     	s.close();
