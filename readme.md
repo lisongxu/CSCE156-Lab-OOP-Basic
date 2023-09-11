@@ -81,32 +81,17 @@ a library (a collection of books) and a text-based interface which
 allows you to search the collection, add books to the collection, and
 list the collection.
 
-### 3.1 Creating Constructors
+### 3.1 Writing Constructors and Getter Methods
 
-1.  Run the library program to familiarize yourself with its
-    functionality. Note that printing the collection is not fully
-    operational
+1.  Run the library demo program `LibraryDemo.java` to familiarize yourself with its
+    functionality. Note that `(3) Printing Collection` is not fully
+    operational yet.
 
-2.  Complete each of the accessor (getter) methods in the class. Best
-    Practice Tip: always use the `this` keyword to disambiguate the scope of
+2.  Modify the `Book` class by implementing the constructor and all the accessor (getter) methods as listed below.  Practice Tip: always use the `this` keyword to disambiguate the scope of
     variables and prevent potential problems when subclassing.
 
-3.  Observe that the `Book` class does not have a constructor defined. Examine
-    the `addBook()` code and determine how it is possible to create instances 
-    of the `Book` class without a constructor.
 
-4.  Modify the `Book` class by adding and implementing the following
-    constructor.  
-
-    ```java
-    public Book(String title, Author author, String isbn, String publishDate) {
-      //TODO: your code here
-    }
-    ```
-
-5.  Adding this constructor will cause syntax errors in other parts of
-    the program. Think about why and then fix these problems by
-    modifying the code appropriately.
+3.  Test whether your methods work by running the library demo program again. `(3) Print Collection` should work if all your methods work. Also test your `Book` class using the JUnit test suites provided in `BookTests.java`.
 
 ### 3.2 Enforcing Good Encapsulation
 
@@ -127,39 +112,7 @@ exposed and it has no methods at all.
 
 4.  Add and make use of an appropriate constructor to this class.
 
-5.  Add a method to return a `String` that is the author's last name/first name
-    separated by a comma and then utilize it where appropriate (modify
-    the `printBooks()` method to use this new method instead of formatting the last
-    name/first name directly).
-
-### 3.3 Adding and Using Methods 
-
-The `printBooks()` method prints out the title, author, and ISBN in a formatted manner
-one per line. In this activity, you will modify it to output additional
-information: the year of its publication and its age (the number of
-years since its publication date).
-
-1.  Modify the `printBooks()` method in the `LibraryDemo` class to output 
-    the publication year of each book in another column. Note that the `Book`
-    class has a `getPublishDate()` method already implemented for you.
-
-2.  To add the "age" column, you will need to add code (*somewhere*) to compute
-    the number of years between the publish date and today.  Well-designed
-    encapsulation means that code that operates on the data of a class belongs
-    *inside the class*.  Bad encapsulation would mean you locate this code
-    *outside the class*.  
-    
-    For example: you *could* write code in the `printBooks()` method that 
-    extracted the publish date from the class and calculated the age.  This
-    would be an example of *bad encapsulation* as it locates code acting on 
-    a class's data (`publishDate`) outside the class.  
-    
-    Instead, do this correctly using *good encapsulation* by adding a new
-    method to the `Book` class that returns the number of years between the 
-    publish date and today. Name your method `getAge()`.  You may find the following code 
-    snippet useful (it utilizes the date/time library provided by Java 8):  
-    
-    `int years = Period.between(this.publishDate, LocalDate.now()).getYears();`
+5. Test your `Author` class using the JUnit test suites provided in `AuthorTests.java`.
 
 ## 4. Testing, Submitting & Grading
 
