@@ -111,12 +111,28 @@ exposed and it has no methods at all.
 2.  Create and use getter methods to make the members accessible to the
     outside world. Use these methods where appropriate.
 
+```java
+public String getFirstName() 
+public String getLastName()
+ ```
+
 3.  Create setter methods (also called mutator methods) to enable code
     outside of the `Author` class to change the member variables. Add some data
     validation: for example, do not allow "invalid" values for member
     variables.
 
+```java
+public void setFirstName(String firstName)
+public void setLastName(String lastName)
+ ```
+
 4.  Add and make use of an appropriate constructor to this class.
+
+```java
+public Author()
+public Author(String firstName, String lastName)
+ ```
+
 
 5. Test your `Author` class using the JUnit test suites provided in `AuthorTests.java`.
 
