@@ -26,4 +26,17 @@ public class AuthorTests {
 		Assertions.assertEquals("Cixin", a.getLastName());
 	}
 
+	public void authorFixedTest02() {
+		Author a = new Author();
+		a.setFirstName("First");
+		Assertions.assertEquals("First", a.getFirstName());
+	}
+
+	public void authorFixedTest03() {
+		Author a = new Author();
+		a.setLastName("Last");
+		Assertions.assertEquals("Last", a.getLastName());
+	}
+
+	
 }
