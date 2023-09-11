@@ -3,13 +3,13 @@
 
 An introduction to using classes and constructors in the Java programming language.
 
-This is a lab used in Computer Science II (CSCE 156, CSCE 156H) in the [Department of Computer Science & Engineering](https://cse.unl.edu) at the [University of Nebraska-Lincoln](https://unl.edu).
+This is a lab used in Computer Science II (CSCE 156) for Fall 2023 
+in the [School of Computing](https://computing.unl.edu) 
+at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ## Overview
 
 ### Resources
-
-Prior to lab you should read/review the following resources.
 
 -   Java constructor tutorial:  
     https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html
@@ -27,41 +27,23 @@ Following the lab, you should be able to:
 
 -   Understand the visibility of a class's methods and how to use them
 
+Note that the lab may involve some concepts, classes, or methods not covered (yet) in the class. You should be able to complete the lab without fully understanding them. If you have any questions about them, please feel free to ask our LAs. 
+
 
 ### Peer Programming Pair-Up
 
-To encourage collaboration and a team environment, labs will be
-structured in a *pair programming* setup.  At the start of
-each lab, you may be randomly paired up with another student by
+At the start of
+each lab, you may find a team member by yourself or may be randomly paired up with another student by
 a lab instructor.  One of you will be designated the *driver* 
-and the other the *navigator*.  
+and the other the *navigator*. If you prefer to work on this lab by yourself, that is fine too.  Each week you should try to alternate: if you were a driver 
+last week, be a navigator next, etc. 
 
-The navigator will be responsible for reading the instructions 
-and telling the driver what is to be done.  The driver will be 
-in charge of the keyboard and workstation.  Both driver and 
-navigator are responsible for suggesting fixes and solutions 
-*together*.  Neither the navigator nor the driver is "in charge."  
-Beyond your immediate pairing, you are encouraged to help and 
-interact and with other pairs in the lab.
-
-Each week you should try to alternate: if you were a driver 
-last week, be a navigator next, etc.  Resolve any issues (you 
-were both drivers last week) within your pair.  Ask the lab 
-instructor to resolve issues only when you cannot come to a 
-consensus.  
-
-Because of the peer programming setup of labs, it is absolutely 
-essential that you complete any pre-lab activities and familiarize
-yourself with the handouts prior to coming to lab.  Failure to do
-so will negatively impact your ability to collaborate and work with 
-others which may mean that you will not be able to complete the
-lab.  
+***Note that, each student must submit the code to CodePost for grading.***
 
 ## 1. Getting Started
 
 Clone this project code for this lab from GitHub in Eclipse using the
-URL: https://github.com/cbourke/CSCE156-Lab04. Refer to Lab 1.0 for
-instructions on how to clone a project from GitHub.
+URL: `https://github.com/lisongxu/CSCE156-Lab-OOP-Basic`
 
 ## 2. Classes & Constructors 
 
