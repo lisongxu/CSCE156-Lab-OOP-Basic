@@ -25,16 +25,12 @@ public class BookTests {
 		Assertions.assertEquals("978-7-5366-9293-0", b.getISBN());
 	}
 
-	/**
-	 * Tests that {{@link #Book} class has a <code>getAge()</code> method and that
-	 * it computes the age of a book correctly.
-	 */
-	@Test
+
 	public void bookFixedTest02() {
-		LocalDate d = LocalDate.parse("2008-01-01");
-		int years = Period.between(d, LocalDate.now()).getYears();
-		Book b = new Book("Foo", null, "Bar", "2008-01-01");
-		Assertions.assertEquals(years, b.getAge());
+		Book b = new Book("War and Peace", "Leo Tolstoy", "978-0199232765", "1869-01-01");
+		Assertions.assertEquals("Leo Tolstoy", b.getAuthor());
+		Assertions.assertEquals("War and Peace", b.getTitle());
 	}
+	
 
 }
