@@ -13,11 +13,19 @@ public class Book {
     private Author author;
     private LocalDate publishDate;
 
+    public Book() { 
+    }
+
+    public Book(String title, Author author, String isbn, String publishDate) { 
+        // TODO: write this method
+    }
+
     /**
      * Getter method for author
      * @return
      */
     public Author getAuthor() {
+        // TODO: write this method
         return null;
     }
 
@@ -34,6 +42,7 @@ public class Book {
      * @return
      */
     public String getISBN() {
+        // TODO: write this method
         return null;
     }
 
@@ -50,6 +59,7 @@ public class Book {
      * @return
      */
     public String getTitle() {
+        // TODO: write this method
         return null;
     }
 
