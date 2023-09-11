@@ -87,9 +87,15 @@ list the collection.
     functionality. Note that `(3) Printing Collection` is not fully
     operational yet.
 
-2.  Modify the `Book` class by implementing the constructor and all the accessor (getter) methods as listed below.  Practice Tip: always use the `this` keyword to disambiguate the scope of
+2.  Modify the `Book` class by implementing the constructor and the accessor (getter) methods as listed below.  Practice Tip: always use the `this` keyword to disambiguate the scope of
     variables and prevent potential problems when subclassing.
 
+```Java
+public Book(String title, Author author, String isbn, String publishDate)
+public Author getAuthor()
+public String getISBN()
+public String getTitle()
+```
 
 3.  Test whether your methods work by running the library demo program again. `(3) Print Collection` should work if all your methods work. Also test your `Book` class using the JUnit test suites provided in `BookTests.java`.
 
