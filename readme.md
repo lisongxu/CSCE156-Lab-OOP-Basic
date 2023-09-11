@@ -50,7 +50,7 @@ URL: `https://github.com/lisongxu/CSCE156-Lab-OOP-Basic`
 Java is a class-based Object Oriented Programming Language meaning that
 it realizes the concept of objects by allowing you to define classes
 which have member methods and variables. Instances of classes are
-*instantiated* through a constructor; a method with the same name as a
+*instantiated* through a constructor, which is a method with the same name as a
 class and called using the keyword `new`. This lab will familiarize you with
 how classes and their constructors are defined and used. In addition,
 you will be introduced to some ways that Java supports other Object
@@ -163,41 +163,10 @@ years since its publication date).
 
 ## 4. Testing, Submitting & Grading
 
-* Test your programs using the provided JUnit test suite(s).  Fix any
+* Test your programs locally on your computer using the provided JUnit test suites.  Fix any
 errors and completely debug your programs.
-* Submit the following files through webhandin:
+* Submit the following file to CodePost:
   * `Author.java`
   * `Book.java`
-* Run the grader and verify the output to complete your lab.
-
-### Advanced Activity (Optional) 
-
-1.  The `printBooks()` method prints books in the order in which they appear in the
-    list. This isn't as useful as if they were sorted in some manner.
-    Read Oracle's tutorial on Object ordering,
-    <http://docs.oracle.com/javase/tutorial/collections/interfaces/order.html>.
-    Write code to use the `Collections.sort()` method along with an anonymous 
-    `Comparator<Book>` instance to sort the collection according to the book's title.
-
-2.  Composition is when a class owns instance(s) of other classes (the
-    `Book` class owns an instance of the `Author` class). If different 
-    instances of a class, say *A* and *B* are given references to the 
-    same object $C$, and changes are made to $C$, the changes will be 
-    apparent to both *A* and *B*. Sometimes this behavior is desired. 
-    Sometimes it is not.  One common technique to prevent this is to define 
-    a *copy constructor* which takes an instance of the class and performs a
-    *deep copy* of an object by copying each of its fields to the new
-    instance. For example, the copy constructor for the `Author` class may look
-    something like this:  
-
-    ```java
-    public Author(Author author) {
-      this.firstName = new String(author.firstName);
-      this.lastName = new String(author.lastName);
-    }
-    ```
-
-    Design and implement a copy constructor for the `Book` class and the 
-    `Library` class. How do different fields need to be copied?
-
+* Make sure that your programs pass  the tests on CodePost. For this lab, as long as your programs pass  the tests on Codepost, you will get full points for the lab.
 
