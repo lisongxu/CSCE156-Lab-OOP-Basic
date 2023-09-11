@@ -25,11 +25,11 @@ public class BookTests {
 		Assertions.assertEquals("978-7-5366-9293-0", b.getISBN());
 	}
 
-
+	@Test
 	public void bookFixedTest02() {
-		Book b = new Book("War and Peace", "Leo Tolstoy", "978-0199232765", "1869-01-01");
-		Assertions.assertEquals("Leo Tolstoy", b.getAuthor());
+		Book b = new Book("War and Peace", null, "978-0199232765", "1869-01-01");
 		Assertions.assertEquals("War and Peace", b.getTitle());
+		Assertions.assertEquals("978-0199232765", b.getISBN());
 	}
 	
 
