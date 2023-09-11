@@ -21,9 +21,9 @@ public class AuthorTests {
 	 */
 	@Test
 	public void authorFixedTest01() {
-		Author a = new Author("Liu", "Cixin");
-		Assertions.assertEquals("Liu", a.getFirstName());
-		Assertions.assertEquals("Cixin", a.getLastName());
+		Author a = new Author("First", "Last");
+		Assertions.assertEquals("First", a.getFirstName());
+		Assertions.assertEquals("Last", a.getLastName());
 	}
 
 	/**
