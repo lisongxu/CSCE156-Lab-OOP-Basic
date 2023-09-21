@@ -1,8 +1,6 @@
 # Computer Science II
 ## Lab 5.0 - Classes & Constructors
 
-***Do not work on this lab yet***
-
 An introduction to using classes and constructors in the Java programming language.
 
 This is a lab used in Computer Science II (CSCE 156) for Fall 2023 
