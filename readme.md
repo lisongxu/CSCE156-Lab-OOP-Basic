@@ -52,26 +52,22 @@ URL: `https://github.com/lisongxu/CSCE156-Lab-OOP-Basic`
 Java is a class-based Object Oriented Programming Language meaning that
 it realizes the concept of objects by allowing you to define classes
 which have member methods and variables. Instances of classes are
-*instantiated* through a constructor, which is a method with the same name as a
+created through a constructor, which is a method with the same name as a
 class and called using the keyword `new`. This lab will familiarize you with
 how classes and their constructors are defined and used. In addition,
 you will be introduced to some ways that Java supports other Object
 Oriented Principles: Encapsulation and Abstraction.
 
 -   *Encapsulation* is a mechanism by which objects group data and the
-    methods/functions that act on that data. It is also the means by
-    which a class's data is protected from the outside world (outside of
-    the object). Java achieves this by allowing you to define member
-    methods and variables and to specify the visibility of these fields
-    using the keywords `private`, `protected`, and `public`.
+    methods/functions that act on that data. 
 
 -   *Abstraction* refers to the means by which an object exposes a
     public interface to the outside world while hiding the inner
     workings (the internal representation or the implementation
-    details). Java's main mechanism for supporting this is the same as
-    with encapsulation though it does provide other means (interfaces,
-    abstract classes, etc.).
-
+    details). Java achieves this by allowing you to define member
+    methods and variables and to specify the visibility of these fields
+    using the keywords `private`, `protected`, and `public`.
+    
 -   *Class Signaling* refers to invoking methods on an instance of a
     class. Java uses the dot (or period) operator to signal a class.
 
@@ -89,7 +85,7 @@ list the collection.
     functionality. Note that `(3) Printing Collection` is not fully
     operational yet.
 
-2.  Modify the `Book` class by implementing the constructor and the accessor (getter) methods as listed below.  Practice Tip: always use the `this` keyword to disambiguate the scope of
+2.  Modify the `Book` class by implementing the constructor and the getter (accessor) methods as listed below.  Practice Tip: always use the `this` keyword to disambiguate the scope of
     variables and prevent potential problems when subclassing.
 
 ```java
@@ -101,7 +97,7 @@ public String getTitle()
 
 3.  Test whether your methods work by running the library demo program again. `(3) Print Collection` should work if all your methods work. Also test your `Book` class using the JUnit test suites provided in `BookTests.java`.
 
-### 3.2 Enforcing Good Encapsulation
+### 3.2 Enforcing Good Encapsulation and Abstraction
 
 The `Book` class is well-designed: it logically groups data and methods
 together that semantically define what a book is and how you can use it.
