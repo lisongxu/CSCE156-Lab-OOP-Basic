@@ -1,5 +1,5 @@
 # Computer Science II
-## Lab 5.0 - Classes & Constructors
+## Lab 6.0 - Classes & Constructors
 
 An introduction to using classes and constructors in the Java programming language.
 
