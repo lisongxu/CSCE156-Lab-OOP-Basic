@@ -117,7 +117,7 @@ errors and completely debug your programs.
     5. Run the test suites by clicking the usual "Play" button.
     6. Fix any errors and completely debug your programs.
 
-* Submit the following file to GradeScope. ***Do not upload any other files.***
+* Submit the following files to GradeScope. ***Do not upload any other files.***
   * ***`Author.java`***
   * ***`Book.java`***
     
