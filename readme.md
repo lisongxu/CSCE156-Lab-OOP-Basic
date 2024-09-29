@@ -121,6 +121,6 @@ errors and completely debug your programs.
   * ***`Author.java`***
   * ***`Book.java`***
     
-* Make sure that your programs pass the tests on CodePost. For this lab, as long as your programs pass  the tests on GradeScope, you will get full points for the lab.
+* Make sure that your programs pass the tests on GradeScope. For this lab, as long as your programs pass  the tests on GradeScope, you will get full points for the lab.
 
 * What if the test on GradeScope fails? Please test your programs locally on your computer using the provided JUnit test suites, because the test on GradeScope is exactly the same as the provided JUnit test suites. **Debugging your programs on GradeScope is not recommended because GradeScope gives very limited information.***
