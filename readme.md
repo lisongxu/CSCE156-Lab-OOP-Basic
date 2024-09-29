@@ -62,7 +62,7 @@ a library (a collection of books) and a text-based interface that allows you to 
 1.  Run the library demo program `LibraryDemo.java` to familiarize yourself with its functionality. Note that `(3) Printing Collection` is not fully
     operational yet.
 
-2.  Modify the `Book` class by implementing the constructor and the getter (accessor) methods listed below.  Practice Tip: always use the `this` keyword to disambiguate the scope of variables and prevent potential problems when subclassing. ***Note that do not change the parameters and the data types of the parameters of these methods. For example, the last parameter `publishDate` of the `Book` constructor must be `String`.***
+2.  Modify the `Book` class by implementing the constructor and the getter (accessor) methods listed below.  Practice Tip: always use the `this` keyword to disambiguate the scope of variables and prevent potential problems when subclassing. ***Note that do not change the data types of the parameters of these methods. For example, the last parameter `publishDate` of the `Book` constructor must be `String`.***
 
 ```java
 public Book(String title, Author author, String isbn, String publishDate)
