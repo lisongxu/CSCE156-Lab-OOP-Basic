@@ -123,4 +123,4 @@ errors and completely debug your programs.
     
 * Make sure that your programs pass the tests on GradeScope. For this lab, as long as your programs pass  the tests on GradeScope, you will get full points for the lab.
 
-* What if the test on GradeScope fails? Please test your programs locally on your computer using the provided JUnit test suites, because the test on GradeScope is exactly the same as the provided JUnit test suites. **Debugging your programs on GradeScope is not recommended because GradeScope gives very limited information.***
+* What if the tests on GradeScope fail? Please test your programs locally on your computer using the provided JUnit test suites, because the tests on GradeScope are exactly the same as the provided JUnit test suites. **Debugging your programs on GradeScope is not recommended because GradeScope gives very limited information.***
