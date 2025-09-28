@@ -1,9 +1,9 @@
 # Computer Science II
-## Lab 6.0 - Classes & Constructors
+## Lab 6 - Classes & Constructors
 
 An introduction to using classes and constructors in the Java programming language.
 
-This is a lab used in Computer Science II (CSCE 156) for Fall 2024 
+This is a lab used in Computer Science II (CSCE 156) for Fall 2025 
 in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://www.unl.edu).
 
@@ -27,13 +27,12 @@ Note that the lab may involve some concepts, classes, or methods not covered (ye
     https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html
 
 -   Object Creation tutorial:  
-    http://download.oracle.com/javase/tutorial/java/javaOO/objectcreation.html
+    http://docs.oracle.com/javase/tutorial/java/javaOO/objectcreation.html
 
 ### Peer Programming Pair-Up
 
-At the start of each lab, you may find a team member by yourself or be randomly paired up with another student by
-a lab instructor.  One of you will be designated the *driver* and the other the *navigator*. Each week you should try to alternate: if you were a driver 
-last week, be a navigator next, etc. If you prefer to work on this lab by yourself, that is fine too.
+At the start of each lab, you may find a team member by yourself.  One of you will be designated the *driver* and the other the *navigator*. Each week you should try to alternate: if you were a driver 
+last week, be a navigator next, etc. If you prefer to work on this lab alone, that is fine too.
 
 ***Note that each student must submit the code to GradeScope for grading.***
 
@@ -54,13 +53,11 @@ Java is a class-based Object Oriented Programming Language meaning that it reali
 
 ## 3. Activities 
 
-We have provided a Java project that simulates a library collections system. It has several classes already defined to model authors, books,
-a library (a collection of books) and a text-based interface that allows you to search the collection, add books to the collection, and list the collection.
+We have provided a Java project that simulates a library collections system. It has several classes already defined to model authors, books, a library (a collection of books) and a text-based interface that allows you to search the collection, add books to the collection, and list the collection.
 
 ### 3.1 Writing Constructors and Getter Methods
 
-1.  Run the library demo program `LibraryDemo.java` to familiarize yourself with its functionality. Note that `(3) Printing Collection` is not fully
-    operational yet.
+1.  Run the library demo program `LibraryDemo.java` to familiarize yourself with its functionality. Note that `(3) Printing Collection` is not fully operational yet.
 
 2.  Modify the `Book` class by implementing the constructor and the getter (accessor) methods listed below.  Practice Tip: always use the `this` keyword to disambiguate the scope of variables and prevent potential problems when subclassing. ***Note that do not change the data types of the parameters of these methods. For example, the last parameter `publishDate` of the `Book` constructor must be `String`.***
 
