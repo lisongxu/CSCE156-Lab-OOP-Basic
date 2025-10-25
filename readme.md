@@ -31,7 +31,7 @@ Note that the lab may involve some concepts, classes, or methods not covered (ye
 
 ### Peer Programming Pair-Up
 
-At the start of each lab, you may find a team member by yourself.  One of you will be designated the *driver* and the other the *navigator*. Each week you should try to alternate: if you were a driver 
+At the start of each lab, you may find a team member by yourself.  One of you will be designated the *driver* and the other the *navigator*. Each week, you should try to alternate: if you were a driver 
 last week, be a navigator next, etc. If you prefer to work on this lab alone, that is fine too.
 
 ***Note that each student must submit the code to GradeScope for grading.***
@@ -43,14 +43,10 @@ URL: `https://github.com/lisongxu/CSCE156-Lab-OOP-Basic`
 
 ## 2. Classes & Constructors 
 
-Java is a class-based Object Oriented Programming Language meaning that it realizes the concept of objects by allowing you to define classes which have member methods and variables. Instances of classes are created through a constructor, which is a method with the same name as a class and called using the keyword `new`. This lab will familiarize you with how classes and their constructors are defined and used. In addition, you will be introduced to some ways that Java supports other Object Oriented Principles: Encapsulation and Abstraction.
+Java is a class-based Object Oriented Programming Language meaning that it realizes the concept of objects by allowing you to define classes which have member methods and variables. Instances of classes are created through a constructor, which is a method with the same name as a class and called using the keyword `new`. This lab will familiarize you with how classes and their constructors are defined and used. In addition, you will be introduced to an Object Oriented Principle: Encapsulation.
 
--   *Encapsulation* is a mechanism by which objects group data and the methods/functions that act on that data. 
-
--   *Abstraction* refers to the means by which an object exposes a public interface to the outside world while hiding the inner workings (the internal representation or the implementation details). Java achieves this by allowing you to define member methods and variables and to specify the visibility of these fields using the keywords `private`, `protected`, and `public`.
+-   *Encapsulation* is a mechanism, by which objects group data and the methods/functions that act on that data, and by which an object exposes a public interface to the outside world while hiding the inner workings (the internal representation or the implementation details). Java achieves this by allowing you to define member methods and variables and to specify the visibility of these fields using the keywords `private`, `protected`, and `public`.
     
--   *Class Signaling* refers to invoking methods on an instance of a class. Java uses the dot (or period) operator to signal a class.
-
 ## 3. Activities 
 
 We have provided a Java project that simulates a library collections system. It has several classes already defined to model authors, books, a library (a collection of books) and a text-based interface that allows you to search the collection, add books to the collection, and list the collection.
@@ -72,7 +68,7 @@ public String getTitle()
    
 4.  Test your `Book` class using the JUnit test suites provided in `src/test/java/unl/soc/BookTests.java`.
 
-### 3.2 Enforcing Good Encapsulation and Abstraction
+### 3.2 Enforcing Good Encapsulation
 
 The `Book` class is well-designed: it logically groups data and methods together that semantically define what a book is and how you can use it.
 The `Author` class however, is not well-designed.  Its data members are publicly exposed and it has no methods at all.
