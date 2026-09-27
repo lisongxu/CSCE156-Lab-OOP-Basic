@@ -3,7 +3,7 @@
 
 An introduction to using classes and constructors in the Java programming language.
 
-This is a lab used in Computer Science II (CSCE 156) for Fall 2025 
+This is a lab used in Computer Science II (CSCE 156) for Fall 2026 
 in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://www.unl.edu).
 
@@ -110,10 +110,10 @@ errors and completely debug your programs.
     5. Run the test suites by clicking the usual "Play" button.
     6. Fix any errors and completely debug your programs.
 
-* Submit the following files to GradeScope. ***Do not upload any other files.***
+* Submit the following files to Gradescope. ***Do not upload any other files.***
   * ***`Author.java`***
   * ***`Book.java`***
     
-* Make sure that your programs pass the tests on GradeScope. For this lab, as long as your programs pass  the tests on GradeScope, you will get full points for the lab.
+* Make sure that your programs pass the tests on Gradescope. For this lab, as long as your programs pass  the tests on Gradescope, you will get full points for the lab.
 
 * What if the tests on GradeScope fail? Please test your programs locally on your computer using the provided JUnit test suites, because the tests on GradeScope are exactly the same as the provided JUnit test suites. ***Debugging your programs on GradeScope is not recommended because GradeScope gives very limited information.***
