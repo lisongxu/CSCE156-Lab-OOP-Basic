@@ -43,7 +43,7 @@ URL: `https://github.com/lisongxu/CSCE156-Lab-OOP-Basic`
 
 ## 2. Classes & Constructors 
 
-Java is a class-based Object Oriented Programming Language meaning that it realizes the concept of objects by allowing you to define classes which have member methods and variables. Instances of classes are created through a constructor, which is a method with the same name as a class and called using the keyword `new`. This lab will familiarize you with how classes and their constructors are defined and used. In addition, you will be introduced to an Object Oriented Principle: Encapsulation.
+Java is a class-based Object Oriented Programming Language meaning that it realizes the concept of objects by allowing you to define classes which have member methods and variables. Instances of classes are created through a constructor that has the same name as a class and is invoked using the keyword `new`. This lab will familiarize you with how classes and their constructors are defined and used. In addition, you will be introduced to an Object Oriented Principle: Encapsulation.
 
 -   *Encapsulation* is a mechanism, by which objects group data and the methods/functions that act on that data, and by which an object exposes a public interface to the outside world while hiding the inner workings (the internal representation or the implementation details). Java achieves this by allowing you to define member methods and variables and to specify the visibility of these fields using the keywords `private`, `protected`, and `public`.
     
@@ -116,4 +116,4 @@ errors and completely debug your programs.
     
 * Make sure that your programs pass the tests on Gradescope. For this lab, as long as your programs pass  the tests on Gradescope, you will get full points for the lab.
 
-* What if the tests on GradeScope fail? Please test your programs locally on your computer using the provided JUnit test suites, because the tests on GradeScope are exactly the same as the provided JUnit test suites. ***Debugging your programs on GradeScope is not recommended because GradeScope gives very limited information.***
+* What if the tests on Gradescope fail? Please test your programs locally on your computer using the provided JUnit test suites, because the tests on GradeScope are exactly the same as the provided JUnit test suites. ***Debugging your programs on Gradescope is not recommended because Gradescope gives very limited information.***
