@@ -34,7 +34,7 @@ Note that the lab may involve some concepts, classes, or methods not covered (ye
 At the start of each lab, you may find a team member by yourself.  One of you will be designated the *driver* and the other the *navigator*. Each week, you should try to alternate: if you were a driver 
 last week, be a navigator next, etc. If you prefer to work on this lab alone, that is fine too.
 
-***Note that each student must submit the code to GradeScope for grading.***
+***Note that each student must submit the code to Gradescope for grading.***
 
 ## 1. Getting Started
 
@@ -116,4 +116,4 @@ errors and completely debug your programs.
     
 * Make sure that your programs pass the tests on Gradescope. For this lab, as long as your programs pass  the tests on Gradescope, you will get full points for the lab.
 
-* What if the tests on Gradescope fail? Please test your programs locally on your computer using the provided JUnit test suites, because the tests on GradeScope are exactly the same as the provided JUnit test suites. ***Debugging your programs on Gradescope is not recommended because Gradescope gives very limited information.***
+* What if the tests on Gradescope fail? Please test your programs locally on your computer using the provided JUnit test suites, because the tests on Gradescope are exactly the same as the provided JUnit test suites. ***Debugging your programs on Gradescope is not recommended because Gradescope gives very limited information.***
