@@ -53,7 +53,7 @@ public class LibraryDemo {
         System.out.print("Enter your search term: ");
         String query = STDIN.next();
         
-        STDIN.nextLine(); // to account for search terms with more than one word
+        STDIN.nextLine(); // consume any remaining words and the newline
         
         switch (userChoice) {
         	case 1:
